@@ -1,0 +1,39 @@
+body {
+
+     .navbar{
+         font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #dbae86;
+      color: #333;
+
+    }
+   h1{
+             font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #c1e10c;
+      color: #333;
+
+   }
+   .navbar ul{
+     color: red;
+   }
+   .navbar a:hover{
+        color: rgb(28, 219, 155);
+        background-color: aliceblue;
+   }
+   .navbar li{
+       display: inline;
+       margin: 0 10px;
+       text-decoration: none;
+       text-align: center;
+   }
+   .mywork{
+     color: rgb(219, 28, 174);
+        background-color: aliceblue;
+   }
+   }
+   
+
+    }

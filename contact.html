@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me</title>
+  <style>
+    body {
+        background-image: 
+        background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+
+        font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+
+    
+    }
+
+    .section.contact {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 10px;
+      animation: typing 2s ease-in-out;
+    }
+
+    p {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .contact-form, .contact-info {
+      flex: 1;
+      min-width: 300px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      border-radius: 4px;
+     
+    }
+
+    .contact-form button:hover {
+      background-color: #2980b9;
+    }
+
+    .contact-info p {
+      font-size: 15px;
+      margin: 10px 0;
+    }
+
+    .contact-info a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="section contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to use the form below or connect with me directly.</p>
+
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:dineshvankam56@gmail.com">dineshvankam56@gmail.com</a></p>
+        <p><strong>Phone:</strong> +91 7981781303</p>
+        <p><strong>Location:</strong> Guntakal, Andhra Pradesh, India</p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
